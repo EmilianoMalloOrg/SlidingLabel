@@ -1,0 +1,6 @@
+framework module Pods_HorizontalSlidingLabel {
+  umbrella header "Pods-HorizontalSlidingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
