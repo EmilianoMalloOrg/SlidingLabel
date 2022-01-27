@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Emiliano Mallo/SlidingLabel'
+  s.homepage         = 'https://github.com/emallo5/SlidingLabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Emiliano Mallo' => 'emiliano.mallo@gmail.com' }
-  s.source           = { :git => 'https://github.com/Emiliano Mallo/SlidingLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/emallo5/SlidingLabel', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'HorizontalSlidingLabel/HorizontalSlidingLabel/**/*.swift'

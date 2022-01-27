@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1F9536E3551516C8A4DE21 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873C47D26A57ED76A7B8890B /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */; };
-		6ED0A29BA9FAB043DE590FE5 /* Pods_HorizontalSlidingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8FE11E3F4558BCCE51057E /* Pods_HorizontalSlidingLabel.framework */; };
-		A59CE0789DF6C7D53CECE5B7 /* Pods_HorizontalSlidingTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB363BCEEE6740DE1BBBF057 /* Pods_HorizontalSlidingTestAppTests.framework */; };
-		AC70357169F6A2970C530679 /* Pods_HorizontalSlidingTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5CE967C8824AE4D22CF8F2 /* Pods_HorizontalSlidingTestApp.framework */; };
+		2DFFBFED44F25EB61D9F0E03 /* Pods_HorizontalSlidingTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1A47AA25FC4A453F3BD188 /* Pods_HorizontalSlidingTestAppTests.framework */; };
+		36E79D74D0C92FDAC026093B /* Pods_HorizontalSlidingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3479DA35515F485D022CCA8C /* Pods_HorizontalSlidingLabel.framework */; };
+		628FAA36D419AA2706EE58A9 /* Pods_HorizontalSlidingTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45B5F93A43DDCE4F1AABC5E /* Pods_HorizontalSlidingTestApp.framework */; };
+		93643A8627A2727B00BB5DF0 /* HorizontalSlidingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93643A8527A2727B00BB5DF0 /* HorizontalSlidingLabelTests.swift */; };
+		93643A8727A2727B00BB5DF0 /* HorizontalSlidingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77976E27A24F2900D0515B /* HorizontalSlidingLabel.framework */; };
 		AC77970827A24C6B00D0515B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77970727A24C6B00D0515B /* AppDelegate.swift */; };
 		AC77970A27A24C6B00D0515B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77970927A24C6B00D0515B /* SceneDelegate.swift */; };
 		AC77970C27A24C6B00D0515B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77970B27A24C6B00D0515B /* ViewController.swift */; };
@@ -24,9 +25,17 @@
 		AC77977627A24F2900D0515B /* HorizontalSlidingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC77976E27A24F2900D0515B /* HorizontalSlidingLabel.framework */; };
 		AC77977727A24F2900D0515B /* HorizontalSlidingLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC77976E27A24F2900D0515B /* HorizontalSlidingLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC77977C27A24F8000D0515B /* SlidingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77977B27A24F8000D0515B /* SlidingLabel.swift */; };
+		E3F032DBAD2C13FC112C7539 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0E760E2814F64DA2779864 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		93643A8827A2727B00BB5DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7796FC27A24C6B00D0515B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC77976D27A24F2900D0515B;
+			remoteInfo = HorizontalSlidingLabel;
+		};
 		AC77971B27A24C6E00D0515B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AC7796FC27A24C6B00D0515B /* Project object */;
@@ -65,11 +74,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E90BF3841F68E1E97C893E6 /* Pods-HorizontalSlidingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingLabel.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingLabel/Pods-HorizontalSlidingLabel.debug.xcconfig"; sourceTree = "<group>"; };
-		1F8FE11E3F4558BCCE51057E /* Pods_HorizontalSlidingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B3FA6BC1E0B5B181043731 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		76CAD7C880F781B3087D6236 /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestAppTests/Pods-HorizontalSlidingTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		873C47D26A57ED76A7B8890B /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		171BEBAC6C64E6FF538F2FD3 /* Pods-HorizontalSlidingTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp/Pods-HorizontalSlidingTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		1DC8EF235567505CE135266C /* Pods-HorizontalSlidingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingLabel.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingLabel/Pods-HorizontalSlidingLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		2308E928D419A8D5D781A39D /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestAppTests/Pods-HorizontalSlidingTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C0E760E2814F64DA2779864 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3479DA35515F485D022CCA8C /* Pods_HorizontalSlidingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373C6E398C370AD7A6589F32 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56027A6D804215F857AB7C47 /* Pods-HorizontalSlidingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingLabel.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingLabel/Pods-HorizontalSlidingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		9122B83A51A809C1302A245C /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93643A8327A2727B00BB5DF0 /* HorizontalSlidingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalSlidingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93643A8527A2727B00BB5DF0 /* HorizontalSlidingLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlidingLabelTests.swift; sourceTree = "<group>"; };
 		AC77970427A24C6B00D0515B /* HorizontalSlidingTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalSlidingTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC77970727A24C6B00D0515B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC77970927A24C6B00D0515B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,22 +101,27 @@
 		AC77976727A24E8700D0515B /* HorizontalSlidingLabel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HorizontalSlidingLabel.docc; sourceTree = "<group>"; };
 		AC77976E27A24F2900D0515B /* HorizontalSlidingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalSlidingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC77977B27A24F8000D0515B /* SlidingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingLabel.swift; sourceTree = "<group>"; };
-		B88EB428E25E1C04BE54D701 /* Pods-HorizontalSlidingTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp/Pods-HorizontalSlidingTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BCDDD6B4FD3BE17FCCA6822F /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestAppTests/Pods-HorizontalSlidingTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEA556866D7B915475360150 /* Pods-HorizontalSlidingTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp/Pods-HorizontalSlidingTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		EB363BCEEE6740DE1BBBF057 /* Pods_HorizontalSlidingTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5CE967C8824AE4D22CF8F2 /* Pods_HorizontalSlidingTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F965C54ED31D8AA295D511BC /* Pods-HorizontalSlidingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingLabel.release.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingLabel/Pods-HorizontalSlidingLabel.release.xcconfig"; sourceTree = "<group>"; };
-		FC38254D08FF13D8790BE7B0 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1A47AA25FC4A453F3BD188 /* Pods_HorizontalSlidingTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8234F74E6D07C280E994C8A /* Pods-HorizontalSlidingTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestApp.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestApp/Pods-HorizontalSlidingTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F45B5F93A43DDCE4F1AABC5E /* Pods_HorizontalSlidingTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalSlidingTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8532D2C477B0660690209B /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalSlidingTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalSlidingTestAppTests/Pods-HorizontalSlidingTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		93643A8027A2727B00BB5DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93643A8727A2727B00BB5DF0 /* HorizontalSlidingLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC77970127A24C6B00D0515B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC77977627A24F2900D0515B /* HorizontalSlidingLabel.framework in Frameworks */,
-				AC70357169F6A2970C530679 /* Pods_HorizontalSlidingTestApp.framework in Frameworks */,
+				628FAA36D419AA2706EE58A9 /* Pods_HorizontalSlidingTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A59CE0789DF6C7D53CECE5B7 /* Pods_HorizontalSlidingTestAppTests.framework in Frameworks */,
+				2DFFBFED44F25EB61D9F0E03 /* Pods_HorizontalSlidingTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1F9536E3551516C8A4DE21 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework in Frameworks */,
+				E3F032DBAD2C13FC112C7539 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,22 +145,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED0A29BA9FAB043DE590FE5 /* Pods_HorizontalSlidingLabel.framework in Frameworks */,
+				36E79D74D0C92FDAC026093B /* Pods_HorizontalSlidingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BB1DF381F7A528E2BBCEB28 /* Frameworks */ = {
+		93643A8427A2727B00BB5DF0 /* HorizontalSlidingLabelTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F8FE11E3F4558BCCE51057E /* Pods_HorizontalSlidingLabel.framework */,
-				EF5CE967C8824AE4D22CF8F2 /* Pods_HorizontalSlidingTestApp.framework */,
-				873C47D26A57ED76A7B8890B /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */,
-				EB363BCEEE6740DE1BBBF057 /* Pods_HorizontalSlidingTestAppTests.framework */,
+				93643A8527A2727B00BB5DF0 /* HorizontalSlidingLabelTests.swift */,
 			);
-			name = Frameworks;
+			path = HorizontalSlidingLabelTests;
 			sourceTree = "<group>";
 		};
 		AC7796FB27A24C6B00D0515B = {
@@ -151,9 +167,10 @@
 				AC77970627A24C6B00D0515B /* HorizontalSlidingTestApp */,
 				AC77971D27A24C6E00D0515B /* HorizontalSlidingTestAppTests */,
 				AC77972727A24C6E00D0515B /* HorizontalSlidingTestAppUITests */,
+				93643A8427A2727B00BB5DF0 /* HorizontalSlidingLabelTests */,
 				AC77970527A24C6B00D0515B /* Products */,
 				B90507DD45BF6804F970F783 /* Pods */,
-				6BB1DF381F7A528E2BBCEB28 /* Frameworks */,
+				EE67C9AFBEC1AC586B660E36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +181,7 @@
 				AC77971A27A24C6E00D0515B /* HorizontalSlidingTestAppTests.xctest */,
 				AC77972427A24C6E00D0515B /* HorizontalSlidingTestAppUITests.xctest */,
 				AC77976E27A24F2900D0515B /* HorizontalSlidingLabel.framework */,
+				93643A8327A2727B00BB5DF0 /* HorizontalSlidingLabelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,16 +238,27 @@
 		B90507DD45BF6804F970F783 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E90BF3841F68E1E97C893E6 /* Pods-HorizontalSlidingLabel.debug.xcconfig */,
-				F965C54ED31D8AA295D511BC /* Pods-HorizontalSlidingLabel.release.xcconfig */,
-				B88EB428E25E1C04BE54D701 /* Pods-HorizontalSlidingTestApp.debug.xcconfig */,
-				CEA556866D7B915475360150 /* Pods-HorizontalSlidingTestApp.release.xcconfig */,
-				FC38254D08FF13D8790BE7B0 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */,
-				59B3FA6BC1E0B5B181043731 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */,
-				BCDDD6B4FD3BE17FCCA6822F /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */,
-				76CAD7C880F781B3087D6236 /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */,
+				1DC8EF235567505CE135266C /* Pods-HorizontalSlidingLabel.debug.xcconfig */,
+				56027A6D804215F857AB7C47 /* Pods-HorizontalSlidingLabel.release.xcconfig */,
+				D8234F74E6D07C280E994C8A /* Pods-HorizontalSlidingTestApp.debug.xcconfig */,
+				171BEBAC6C64E6FF538F2FD3 /* Pods-HorizontalSlidingTestApp.release.xcconfig */,
+				9122B83A51A809C1302A245C /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */,
+				373C6E398C370AD7A6589F32 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */,
+				FD8532D2C477B0660690209B /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */,
+				2308E928D419A8D5D781A39D /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE67C9AFBEC1AC586B660E36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3479DA35515F485D022CCA8C /* Pods_HorizontalSlidingLabel.framework */,
+				F45B5F93A43DDCE4F1AABC5E /* Pods_HorizontalSlidingTestApp.framework */,
+				2C0E760E2814F64DA2779864 /* Pods_HorizontalSlidingTestApp_HorizontalSlidingTestAppUITests.framework */,
+				CE1A47AA25FC4A453F3BD188 /* Pods_HorizontalSlidingTestAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,11 +274,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		93643A8227A2727B00BB5DF0 /* HorizontalSlidingLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93643A8C27A2727B00BB5DF0 /* Build configuration list for PBXNativeTarget "HorizontalSlidingLabelTests" */;
+			buildPhases = (
+				93643A7F27A2727B00BB5DF0 /* Sources */,
+				93643A8027A2727B00BB5DF0 /* Frameworks */,
+				93643A8127A2727B00BB5DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93643A8927A2727B00BB5DF0 /* PBXTargetDependency */,
+			);
+			name = HorizontalSlidingLabelTests;
+			productName = HorizontalSlidingLabelTests;
+			productReference = 93643A8327A2727B00BB5DF0 /* HorizontalSlidingLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AC77970327A24C6B00D0515B /* HorizontalSlidingTestApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC77972E27A24C6E00D0515B /* Build configuration list for PBXNativeTarget "HorizontalSlidingTestApp" */;
 			buildPhases = (
-				4A304716054038204DDA02D3 /* [CP] Check Pods Manifest.lock */,
+				36ADE81ECD262437D37ED92B /* [CP] Check Pods Manifest.lock */,
 				AC77970027A24C6B00D0515B /* Sources */,
 				AC77970127A24C6B00D0515B /* Frameworks */,
 				AC77970227A24C6B00D0515B /* Resources */,
@@ -269,7 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC77973127A24C6E00D0515B /* Build configuration list for PBXNativeTarget "HorizontalSlidingTestAppTests" */;
 			buildPhases = (
-				7CE2FD516DFB8F5ACA5D5212 /* [CP] Check Pods Manifest.lock */,
+				421D7962A3B66A2C6498C807 /* [CP] Check Pods Manifest.lock */,
 				AC77971627A24C6E00D0515B /* Sources */,
 				AC77971727A24C6E00D0515B /* Frameworks */,
 				AC77971827A24C6E00D0515B /* Resources */,
@@ -288,7 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC77973427A24C6E00D0515B /* Build configuration list for PBXNativeTarget "HorizontalSlidingTestAppUITests" */;
 			buildPhases = (
-				2ECCB9D060E1C5FC274A5931 /* [CP] Check Pods Manifest.lock */,
+				AB4A1D4995EA70FC065C9631 /* [CP] Check Pods Manifest.lock */,
 				AC77972027A24C6E00D0515B /* Sources */,
 				AC77972127A24C6E00D0515B /* Frameworks */,
 				AC77972227A24C6E00D0515B /* Resources */,
@@ -307,7 +354,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC77977827A24F2900D0515B /* Build configuration list for PBXNativeTarget "HorizontalSlidingLabel" */;
 			buildPhases = (
-				059B0E186BD2E5F867559417 /* [CP] Check Pods Manifest.lock */,
+				16DC08CB6919201011BAEDAB /* [CP] Check Pods Manifest.lock */,
 				AC77976927A24F2900D0515B /* Headers */,
 				AC77976A27A24F2900D0515B /* Sources */,
 				AC77976B27A24F2900D0515B /* Frameworks */,
@@ -332,6 +379,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					93643A8227A2727B00BB5DF0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					AC77970327A24C6B00D0515B = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -365,11 +415,19 @@
 				AC77971927A24C6E00D0515B /* HorizontalSlidingTestAppTests */,
 				AC77972327A24C6E00D0515B /* HorizontalSlidingTestAppUITests */,
 				AC77976D27A24F2900D0515B /* HorizontalSlidingLabel */,
+				93643A8227A2727B00BB5DF0 /* HorizontalSlidingLabelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		93643A8127A2727B00BB5DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC77970227A24C6B00D0515B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,7 +462,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		059B0E186BD2E5F867559417 /* [CP] Check Pods Manifest.lock */ = {
+		16DC08CB6919201011BAEDAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -426,29 +484,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2ECCB9D060E1C5FC274A5931 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A304716054038204DDA02D3 /* [CP] Check Pods Manifest.lock */ = {
+		36ADE81ECD262437D37ED92B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +506,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7CE2FD516DFB8F5ACA5D5212 /* [CP] Check Pods Manifest.lock */ = {
+		421D7962A3B66A2C6498C807 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,9 +528,39 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AB4A1D4995EA70FC065C9631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		93643A7F27A2727B00BB5DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93643A8627A2727B00BB5DF0 /* HorizontalSlidingLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC77970027A24C6B00D0515B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,6 +600,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		93643A8927A2727B00BB5DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC77976D27A24F2900D0515B /* HorizontalSlidingLabel */;
+			targetProxy = 93643A8827A2727B00BB5DF0 /* PBXContainerItemProxy */;
+		};
 		AC77971C27A24C6E00D0515B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AC77970327A24C6B00D0515B /* HorizontalSlidingTestApp */;
@@ -571,6 +642,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		93643A8A27A2727B00BB5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VanesaKorbenfeld.HorizontalSlidingLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93643A8B27A2727B00BB5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VanesaKorbenfeld.HorizontalSlidingLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AC77972C27A24C6E00D0515B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -689,7 +800,7 @@
 		};
 		AC77972F27A24C6E00D0515B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88EB428E25E1C04BE54D701 /* Pods-HorizontalSlidingTestApp.debug.xcconfig */;
+			baseConfigurationReference = D8234F74E6D07C280E994C8A /* Pods-HorizontalSlidingTestApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -718,7 +829,7 @@
 		};
 		AC77973027A24C6E00D0515B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEA556866D7B915475360150 /* Pods-HorizontalSlidingTestApp.release.xcconfig */;
+			baseConfigurationReference = 171BEBAC6C64E6FF538F2FD3 /* Pods-HorizontalSlidingTestApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -747,7 +858,7 @@
 		};
 		AC77973227A24C6E00D0515B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCDDD6B4FD3BE17FCCA6822F /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */;
+			baseConfigurationReference = FD8532D2C477B0660690209B /* Pods-HorizontalSlidingTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -772,7 +883,7 @@
 		};
 		AC77973327A24C6E00D0515B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CAD7C880F781B3087D6236 /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */;
+			baseConfigurationReference = 2308E928D419A8D5D781A39D /* Pods-HorizontalSlidingTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -797,7 +908,7 @@
 		};
 		AC77973527A24C6E00D0515B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC38254D08FF13D8790BE7B0 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 9122B83A51A809C1302A245C /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -820,7 +931,7 @@
 		};
 		AC77973627A24C6E00D0515B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B3FA6BC1E0B5B181043731 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */;
+			baseConfigurationReference = 373C6E398C370AD7A6589F32 /* Pods-HorizontalSlidingTestApp-HorizontalSlidingTestAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -843,7 +954,7 @@
 		};
 		AC77977927A24F2900D0515B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E90BF3841F68E1E97C893E6 /* Pods-HorizontalSlidingLabel.debug.xcconfig */;
+			baseConfigurationReference = 1DC8EF235567505CE135266C /* Pods-HorizontalSlidingLabel.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -873,7 +984,7 @@
 		};
 		AC77977A27A24F2900D0515B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F965C54ED31D8AA295D511BC /* Pods-HorizontalSlidingLabel.release.xcconfig */;
+			baseConfigurationReference = 56027A6D804215F857AB7C47 /* Pods-HorizontalSlidingLabel.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -904,6 +1015,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		93643A8C27A2727B00BB5DF0 /* Build configuration list for PBXNativeTarget "HorizontalSlidingLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93643A8A27A2727B00BB5DF0 /* Debug */,
+				93643A8B27A2727B00BB5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AC7796FF27A24C6B00D0515B /* Build configuration list for PBXProject "HorizontalSlidingTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
