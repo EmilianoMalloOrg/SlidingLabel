@@ -35,6 +35,8 @@ public class SlidingLabel: UIView {
     self.text = text
     setup()
     animateViews()
+    let clase = Alamofire.Clasesita()
+      clase.intentarHacerAlgo()
   }
 
   func setup() {
