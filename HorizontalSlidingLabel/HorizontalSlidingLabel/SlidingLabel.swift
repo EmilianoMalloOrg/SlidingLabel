@@ -8,7 +8,7 @@
 import UIKit
 @IBDesignable
 public class SlidingLabel: UIView {
-  private var label = UILabel()
+  private var label = UILabel
   private var secondLabel = UILabel()
   private var leadingLabelConstraint: NSLayoutConstraint!
 
