@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SlidingLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'Pod to simulate sliding label used in tiktok. The idea is to slide the inner text smoothly, it is just a view.'
+  s.version          = '1.0.0'
+  s.summary          = 'Pod to simulate sliding label used in tiktok.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'The idea is to slide the inner text smoothly, it is just a view. I wrote it because I needed something like that in a project and I didnt found something similar on the Internet. I hope you can use it.'
 
   s.homepage         = 'https://github.com/emallo5/SlidingLabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

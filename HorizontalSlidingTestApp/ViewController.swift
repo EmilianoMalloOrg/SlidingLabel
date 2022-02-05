@@ -12,7 +12,7 @@ class ViewController: UIViewController {
   var labelSliding = SlidingLabel(text: "Programmatic - Label")
 
   override func viewDidLoad() {
-    super.viewDidLoad()
+    super.viewDidLoad
 
     labelSliding.translatesAutoresizingMaskIntoConstraints = false
     self.view.addSubview(labelSliding)
