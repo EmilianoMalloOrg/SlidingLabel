@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Alamofire
+
 @IBDesignable
 public class SlidingLabel: UIView {
   private var label = UILabel()
@@ -30,13 +30,11 @@ public class SlidingLabel: UIView {
     setup()
   }
 
-  public init(text: String) {
+    public init(text: String, stringToBreak: String) {
     super.init(frame: .zero)
     self.text = text
     setup()
     animateViews()
-    let clase = Alamofire.Clasesita()
-      clase.intentarHacerAlgo()
   }
 
   func setup() {
