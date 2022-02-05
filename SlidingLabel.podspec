@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SlidingLabel'
-  s.version          = '3.0.0'
+  s.version          = '4.0.0'
   s.summary          = 'Pod to simulate sliding label used in tiktok.'
 
 # This description is used to generate tags and improve search results.
